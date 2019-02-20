@@ -36,8 +36,7 @@
     "require-dev": {
         "eloquent/phony-kahlan": "^2.0",
         "kahlan/kahlan": "^4.0",
-        "phpstan/phpstan": "^0.11.2",
-        "quanta/container": "^0.2.4"
+        "phpstan/phpstan": "^0.11.2"
     },
     "autoload": {
         "psr-4": {
