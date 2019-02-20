@@ -1,0 +1,46 @@
+{
+    "name": "services/http-dispatcher",
+    "type": "library",
+    "description": "Provides a Psr-15 middleware dispatcher",
+    "keywords": [
+        "psr-15",
+        "middleware",
+        "request-handler",
+        "service-provider"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/php-services/http-dispatcher",
+    "support": {
+        "issues": "https://github.com/php-services/http-dispatcher/issues",
+        "source": "https://github.com/php-services/http-dispatcher"
+    },
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0",
+        "container-interop/service-provider": "^0.4.0",
+        "psr/container": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "quanta/middleware": "^0.1.2"
+    },
+    "require-dev": {
+        "eloquent/phony-kahlan": "^2.0",
+        "kahlan/kahlan": "^4.0",
+        "phpstan/phpstan": "^0.11.2",
+        "quanta/container": "^0.2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Services\\Http\\": "src"
+        }
+    }
+}
