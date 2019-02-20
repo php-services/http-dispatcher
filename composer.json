@@ -4,6 +4,7 @@
     "description": "Provides a Psr-15 middleware dispatcher",
     "keywords": [
         "psr-15",
+        "dispatcher",
         "middleware",
         "request-handler",
         "service-provider"
